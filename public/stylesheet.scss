@@ -1,0 +1,64 @@
+
+
+$color1: #204C9D;
+
+.bg_c1 {
+    background-color: $color1;
+}
+
+.text_c1 {
+    color: $color1;
+}
+
+.btn_c1 {
+    background-color: white;
+    -webkit-box-shadow: inset 0px 0px 0px 3px $color1 !important;
+    -moz-box-shadow: inset 0px 0px 0px 3px $color1 !important;
+    box-shadow: inset 0px 0px 0px 3px $color1 !important;
+    max-width: 250px;
+    width: 250px;
+    padding: 15px;
+    color:$color1;
+}
+
+.btn_c1:hover {
+    background-color: white;
+    color:$color1;
+}
+
+
+.btn_c2 {
+    background-color: $color1;
+    color:white;
+    max-width: 250px;
+    width: 250px;
+    padding: 15px;
+}
+
+.btn_c2:hover {
+    background-color: $color1;
+    color:white;
+}
+
+.w_600 {
+    font-weight: 600;
+}
+
+.w_700 {
+    font-weight: 700;
+}
+
+.list_cont {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer_content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.footer_lin {
+    height: 1px;
+    background-color: white;
+}
